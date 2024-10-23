@@ -15,7 +15,7 @@ if not venv_dir.exists():
 
 subprocess.run([venv_python, "-m", "pip", "install", "-U", "pip"])
 subprocess.run([venv_python, "-m", "pip", "install", "-U", "-r", "requirements.txt"])
-subprocess.run([venv_python, "-m", "Browser.entry", "init"])
+subprocess.run([venv_python, "-m", "Browser.entry", "init", "chromium"])
 
 activate_script = (
     "source .venv/bin/activate"
