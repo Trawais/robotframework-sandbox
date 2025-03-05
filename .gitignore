@@ -6,3 +6,6 @@ results/
 
 # Browser's traces folder
 browser/
+
+
+**/__pycache__/
